@@ -103,18 +103,18 @@ body {
 .gallery img:hover {
   transform: scale(1.1);
 }
-.Berita {
+.berita {
   display: flex;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
 }
-.Berita img {
+.berita img {
   width: 180px;
   border-radius: 12px;
   transition: transform 0.3s;
 }
-.Berita img:hover {
+.berita img:hover {
   transform: scale(1.1);
 }
 /* Footer */
@@ -161,4 +161,5 @@ footer {
   transform: scale(1.05);
   background: #fab1a0;
 }
+
 
