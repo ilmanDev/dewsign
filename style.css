@@ -103,7 +103,20 @@ body {
 .gallery img:hover {
   transform: scale(1.1);
 }
-
+.Berita {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.Berita img {
+  width: 180px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+.Berita img:hover {
+  transform: scale(1.1);
+}
 /* Footer */
 footer {
   margin: 30px 0;
@@ -148,3 +161,4 @@ footer {
   transform: scale(1.05);
   background: #fab1a0;
 }
+
